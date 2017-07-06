@@ -18,7 +18,49 @@ Version: 1.2
 }
 /*  header stuff - here */
 
+#header-wrap {
+	.menu li.menu-item {
+		margin: 0px 5px;
+		a {
+			font-size: 16px;
+			//font-weight: bold;
+			border-radius: 5px;
+			color: white;
+			border: 2px solid rgba(255, 255, 255, 0);
+			transition: all .5s
+		}
+	}
+
+	#navigation a, #navigation-left-side a, #navigation-right-side a {
+		padding: 4px 7px;
+	}
+
+	#navigation-left-side {
+		padding-right: 90px;
+	}
+
+	#navigation-right-side {
+		padding-left: 90px;
+	}
+
+	#navigation-left-side .current_page_item a, #navigation-right-side .current_page_item a {
+		background-color: rgba(0, 0, 0, .8);
+		border-radius: 5px;
+		border: 2px solid white;
+	}
+
+	#navigation-left-side li:not(.current-menu-item) a:hover, #navigation-right-side li:not(.current-menu-item) a:hover {
+			border: 2px solid white;
+			transition: all .5s;
+			background-color: rgba(0, 0, 0, .4);
+	}
+}
+
 /*** styling of content */
+
+.page-header-image h1 {
+	text-shadow: 2px 2px 2px black; //text-shadow to page titles in header
+}
 
 /** sidebar
 
