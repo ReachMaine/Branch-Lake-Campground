@@ -81,6 +81,9 @@ input[type="submit"] {
 .page-header-image h1 {
   text-shadow: 2px 2px 2px black; }
 
+textarea {
+  height: 150px; }
+
 /** sidebar
 
 /** footer **/
