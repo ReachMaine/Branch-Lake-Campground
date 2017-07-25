@@ -99,3 +99,16 @@ textarea {
 
 /* *** keep this at the end *** */
 /* **** media **** */
+@media only screen and (max-width: 767px) {
+  div#header-wrap div.logo {
+    margin-top: 10px;
+    margin-bottom: 10px; }
+    div#header-wrap div.logo img.transparent-logo.light-scheme-logo {
+      width: 100px; }
+  div#header-wrap #header-controls-right {
+    top: -33px; }
+
+  #page-content div.page-header-image div.tatsu-section-pad {
+    padding-top: 55px !important; }
+  #page-content div.page-header-image-homepage div.tatsu-section-pad {
+    padding: 130px 0px 20px 0px !important; } }

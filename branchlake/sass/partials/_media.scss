@@ -19,7 +19,31 @@
 
 }
 @media only screen and (max-width: 767px) { // mobile - mobile menu shows here.
-	// hide-mobile available from tatsu
+	div#header-wrap {
+		div.logo {
+			margin-top: 10px;
+			margin-bottom: 10px;
+			img.transparent-logo.light-scheme-logo {
+				width: 100px;
+			}
+		}
+		#header-controls-right {
+			top: -33px;
+		}
+	}
+
+	#page-content {
+		div.page-header-image {
+			div.tatsu-section-pad {
+				padding-top: 55px !important;
+			}
+		}
+		div.page-header-image-homepage {
+			div.tatsu-section-pad {
+				padding: 130px 0px 20px 0px !important;
+			}
+		}
+	}
 }
 
 @media only screen and (min-width: 480px) and (max-width: 767px) { // mobile 480
