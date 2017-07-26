@@ -99,6 +99,9 @@ textarea {
 
 /* *** keep this at the end *** */
 /* **** media **** */
+@media only screen and (min-width: 961px) {
+  #header-top-bar {
+    display: none; } }
 @media only screen and (max-width: 767px) {
   div#header-wrap div.logo {
     margin-top: 10px;

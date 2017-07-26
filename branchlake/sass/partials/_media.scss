@@ -18,7 +18,13 @@
 @media only screen and (max-width: 960px) {
 
 }
+@media only screen and (min-width: 961px) { // has main menu
+	#header-top-bar {
+		display: none;
+	}
+}
 @media only screen and (max-width: 767px) { // mobile - mobile menu shows here.
+
 	div#header-wrap {
 		div.logo {
 			margin-top: 10px;
