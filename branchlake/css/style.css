@@ -7,6 +7,9 @@ Version: 1.2
 */
 @import url("../oshin/style.css");
 /* ----------- Colors ---------------------------------- */
+.wpcf7-response-output.wpcf7-mail-sent-ok {
+  background-color: #b2ccac; }
+
 /* ----------- end Colors ----------- */
 /* ----------- Typography ------------------------------- */
 i.fa-pull-left {
